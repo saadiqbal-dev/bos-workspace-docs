@@ -28,7 +28,7 @@ To verify `bos-workspace` in installed, you can check for a current version:
 bos - workspace - V;
 ```
 
-<img src="verify_bosworkspace_version.png" alt="Verify `bos-workspace` version" width="100%">
+![Verify `bos-workspace` version](https://ipfs.near.social/ipfs/bafkreicfg4xkejbblvcx25l4h7m33ldsghe5ktyut3crttqtb3ju4srinu)
 
 To start, you may clone an existing project by navigating to your project directory and running the `clone` command:
 
@@ -38,13 +38,13 @@ bos-workspace clone [accountId]
 
 where `accountId ` is your named NEAR account (yourname.near)
 
-<img src="cloned_components.png" alt="Cloned BOS components" width="90%">
+![Cloned BOS Components](https://ipfs.near.social/ipfs/bafkreieema6nmzovnqoyd5nvfuvlwknhw3nlc7ahpqwa3wasj7vwpimdia)
 
 In the terminal, navigate to the account name workspace, then run `bos-workspace-dev` to start the development server.
 
 The image below is an example of what your terminal and browser should look like once you've opened the local gateway.
 
-<img src="dev_server_running.png" alt="Development server running" width="90%">
+![Development Server Running](https://ipfs.near.social/ipfs/bafkreialqprya6kmcziz2n2ws4utp7yr5vt4k3ddazmxr4c54my42lqeum)
 
 ### Usage 👷🏽‍♀️
 
@@ -67,7 +67,7 @@ You can use your `bos-workspace` for both single and multi app development by ta
 
 _Sample directory structure_
 
-<img src="sample_app_structure.png" alt="sample app structure" width="75%">
+![Sample App Structure](https://ipfs.near.social/ipfs/bafkreifbfspi2oa74ueyfrtnhllwbgfqsjahd7l4jjpw4hdzne3f5bqq7i)
 <br><br>
 
 **Workspace:** 🛠️
@@ -84,7 +84,8 @@ _Sample directory structure_
 <br>
 *Sample directory structure*
 
-<img src="sample_workspace_structure.png" width="75%">
+![Sample Workspace Structure](https://ipfs.near.social/ipfs/bafkreieev4w5jaghtmhvif66oeyra4riabo7gd3t4katupqmxlqw7lwh74)
+
 <br><br>
 
 📝 **Note:** App names are not required to end in `.near` or be stored in a directory named `/apps`. Be sure your `bos.config.json` is located at the same level as directories like `/widget` and your `bos.workspace.json` reflects the name of the directory where your apps are located
