@@ -100,111 +100,110 @@ Usage: `bos-workspace [options] [command]`
 
 Build decentralized apps
 
-Options: <br>
-`-V`, --version<br>
-`-h`, --help
+Options:
+
+- `-V`, --version
+- `-h`, --help
 
 Commands:
 
-<details>
-<summary><code>dev [options] [src]</code> Run the development server</summary>
-<br>
-Usage: <code>bos-workspace dev [options] [src]</code><br><br>
+### dev [options] [src] - Run the development server
 
-Arguments: <br>
-<code>src</code>: Path to the app source code (default: ".")<br><br>
+Usage: `bos-workspace dev [options] [src]`
 
-Options:<br>
-<code>-p, --port &lt;port&gt;</code> Port to run the server on (default: "8080")<br>
-<code>-g, --gateway &lt;gateway&gt;</code> Path to custom gateway dist<br>
-<code>--no-gateway</code> Disable the gateway<br>
-<code>--no-hot</code> Disable hot reloading<br>
-<code>--no-open</code> Disable opening the browser<br>
-<code>-h, --help</code> Display help for command<br>
+Arguments:
 
-</details>
-<br>
+- `src`: Path to the app source code (default: ".")
 
-<details>
-<summary><code>build [options] [src] [dest]</code> Build the project</summary>
-<br>
-Usage: <code>bos-workspace build [options] [src] [dest]</code><br><br>
+Options:
 
-Arguments: <br>
-<code>src</code>: Path to the app source code (default: ".")<br>
-<code>dest</code>: Destination path<br><br>
+- `-p, --port <port>`: Port to run the server on (default: "8080")
+- `-g, --gateway <gateway>`: Path to custom gateway dist
+- `--no-gateway`: Disable the gateway
+- `--no-hot`: Disable hot reloading
+- `--no-open`: Disable opening the browser
+- `-h, --help`: Display help for command
 
-Options:<br>
-<code>-n, --network &lt;network&gt;</code> Network<br>
-<code>-l, --loglevel &lt;loglevel&gt;</code> Log level (ERROR, WARN, INFO, DEV, BUILD, DEBUG) (default: "BUILD")<br>
-<code>-h, --help</code> Display help for command<br>
+---
 
-</details>
-<br>
+### build [options] [src] [dest] - Build the project
 
-<details>
-<summary><code>workspace|ws [options] [command] [src] [dest]</code> Work with multiple apps</summary>
-<br>
-Usage: <code>workspace|ws [options] [command] [src] [dest]</code><br><br>
+Usage: `bos-workspace build [options] [src] [dest]`
 
-Arguments: <br>
-<code>command</code>: Command to run<br>
-<code>src</code>: Path to the workspace (default: ".")<br>
-<code>dest</code>: Destination path<br><br>
+Arguments:
 
-Options:<br>
-<code>-n, --network &lt;network&gt;</code> Network<br>
-<code>-l, --loglevel &lt;loglevel&gt;</code> Log level (ERROR, WARN, INFO, DEV, BUILD, DEBUG) (default: "BUILD")<br>
-<code>-p, --port &lt;port&gt;</code> Port to run the server on (default: "8080")<br>
-<code>-g, --gateway &lt;gateway&gt;</code> Path to custom gateway dist<br>
-<code>--no-gateway</code> Disable the gateway<br>
-<code>--no-hot</code> Disable hot reloading<br>
-<code>--no-open</code> Disable opening the browser<br>
-<code>-h, --help</code> Display help for command<br>
+- `src`: Path to the app source code (default: ".")
+- `dest`: Destination path
 
-</details>
-<br>
+Options:
 
-<details>
-<summary><code>init [options] [path]</code> Initialize a new project</summary>
-<br>
-Usage: <code>bos-workspace init [options] [path]</code><br><br>
+- `-n, --network <network>`: Network
+- `-l, --loglevel <loglevel>`: Log level (ERROR, WARN, INFO, DEV, BUILD, DEBUG) (default: "BUILD")
+- `-h, --help`: Display help for command
 
-Arguments: <br>
-<code>path</code>: Where to init the project<br><br>
+---
 
-Options:<br>
-<code>-t, --template &lt;template&gt;</code> Template to use (js-single, js-multi) (default: "js-single")<br>
-<code>-h, --help</code> Display help for command<br>
+### workspace|ws [options] [command] [src] [dest] - Work with multiple apps
 
-</details>
-<br>
+Usage: `workspace|ws [options] [command] [src] [dest]`
 
-<details>
-<summary><code>clone [account] [dest]</code> Clone a SocialDB repository</summary>
-<br>
-Usage: <code>bos-workspace clone [account] [dest]</code><br><br>
+Arguments:
 
-Arguments: <br>
-<code>account</code>: Account ID<br>
-<code>dest</code>: Destination path<br><br>
+- `command`: Command to run
+- `src`: Path to the workspace (default: ".")
+- `dest`: Destination path
 
-Options:<br>
-<code>-h, --help</code> Display help for command<br>
+Options:
 
-</details>
-<br>
+- `-n, --network <network>`: Network
+- `-l, --loglevel <loglevel>`: Log level (ERROR, WARN, INFO, DEV, BUILD, DEBUG) (default: "BUILD")
+- `-p, --port <port>`: Port to run the server on (default: "8080")
+- `-g, --gateway <gateway>`: Path to custom gateway dist
+- `--no-gateway`: Disable the gateway
+- `--no-hot`: Disable hot reloading
+- `--no-open`: Disable opening the browser
+- `-h, --help`: Display help for command
 
-<details>
-<summary><code>pull [account]</code> Pull updates from a SocialDB repository</summary>
-<br>
-Usage: <code>bos-workspace pull [account]</code><br><br>
+---
 
-Arguments: <br>
-<code>account</code>: Account ID<br><br>
+### init [options] [path] - Initialize a new project
 
-Options:<br>
-<code>-h, --help</code> Display help for command<br>
+Usage: `bos-workspace init [options] [path]`
 
-</details>
-<br>
+Arguments:
+
+- `path`: Where to init the project
+
+Options:
+
+- `-t, --template <template>`: Template to use (js-single, js-multi) (default: "js-single")
+- `-h, --help`: Display help for command
+
+---
+
+### clone [account] [dest] - Clone a SocialDB repository
+
+Usage: `bos-workspace clone [account] [dest]`
+
+Arguments:
+
+- `account`: Account ID
+- `dest`: Destination path
+
+Options:
+
+- `-h, --help`: Display help for command
+
+---
+
+### pull [account] - Pull updates from a SocialDB repository
+
+Usage: `bos-workspace pull [account]`
+
+Arguments:
+
+- `account`: Account ID
+
+Options:
+
+- `-h, --help`: Display help for command
