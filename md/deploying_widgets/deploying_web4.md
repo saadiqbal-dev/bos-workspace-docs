@@ -2,7 +2,7 @@
 
 (needs [bos-cli-rs](https://github.com/bos-cli-rs/bos-cli-rs))
 
-![TEst](https://ipfs.near.social/ipfs/bafkreieema6nmzovnqoyd5nvfuvlwknhw3nlc7ahpqwa3wasj7vwpimdia)
+![TESt](https://ipfs.near.social/ipfs/bafkreieema6nmzovnqoyd5nvfuvlwknhw3nlc7ahpqwa3wasj7vwpimdia)
 
 1. create a subaccount
 
