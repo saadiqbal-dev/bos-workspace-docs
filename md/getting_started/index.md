@@ -107,7 +107,15 @@ Options: <br>
 Commands:
 
 <details>
-<summary><code>dev [options] [src]</code> Run the development server</summary>
+<summary>
+
+```js
+dev[options][src];
+```
+
+Run the development server
+
+</summary>
 <br>
 Usage: <code>bos-workspace dev [options] [src]</code><br><br>
 
