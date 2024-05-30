@@ -1,4 +1,4 @@
-### Working with the VM
+## Working with the VM
 
 In reviewing the nuances of working with the NearSocial/VM, here are some unique properties and handling guidelines for BOS:
 
