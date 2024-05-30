@@ -2,6 +2,8 @@
 
 (needs [bos-cli-rs](https://github.com/bos-cli-rs/bos-cli-rs))
 
+![Test](md/cloned_components.png)
+
 1. create a subaccount
 
 ```cmd
